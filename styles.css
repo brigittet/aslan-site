@@ -236,6 +236,8 @@ section.no-sharding {
     display: flex;
     justify-content: center;
     background-image: url("images/flow/no-sharding.png");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 section.no-sharding h2 {
@@ -248,13 +250,11 @@ section.no-sharding p {
 }
 
 section.no-sharding .words {
-    padding: 4rem 4rem 0rem 4rem;
     display: flex;
     flex-direction: column;
     padding: 0rem 10rem 0rem 50rem;
+    min-width: 30rem;
 }
-
-
 
 section.build-tech {
     display: flex;
@@ -268,6 +268,24 @@ section.build-tech {
 .tech-details {
     background-color: var(--red);
     padding: 4rem;
+}
+
+section.discord-signup {
+    min-height: 300px;
+    background-image: url('images/flow/discord-background.jpg');
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 7rem;
+}
+
+section.discord-signup h2 {
+    font-size: 3rem;
+}
+
+span.purple {
+    color: rgb(48, 18, 214)
 }
 
 footer .icon-container {
