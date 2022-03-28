@@ -249,10 +249,9 @@ section.no-sharding p {
 
 section.no-sharding .words {
     padding: 4rem 4rem 0rem 4rem;
-    max-width: 50%;
     display: flex;
     flex-direction: column;
-    align-content: flex-end;
+    padding: 0rem 10rem 0rem 50rem;
 }
 
 
